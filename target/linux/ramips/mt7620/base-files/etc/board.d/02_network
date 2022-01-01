@@ -23,6 +23,7 @@ ramips_setup_interfaces()
 	ralink,mt7620a-mt7610e-evb|\
 	ralink,mt7620a-v22sg-evb|\
 	sanlinking,d240|\
+	telesquare,tlr-2005ksh|\
 	zbtlink,zbt-ape522ii|\
 	zbtlink,zbt-we826-16m|\
 	zbtlink,zbt-we826-32m|\

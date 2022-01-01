@@ -1091,6 +1091,15 @@ define Device/sitecom_wlr-4100-v1-002
 endef
 TARGET_DEVICES += sitecom_wlr-4100-v1-002
 
+define Device/telesquare_tlr-2005ksh
+  SOC := mt7620a
+  IMAGE_SIZE := 32256k
+  DEVICE_VENDOR := TELESQUARE
+  DEVICE_MODEL := TLR-2005KSH
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci kmod-usb-net-qmi-wwan kmod-usb-serial-option uqmi
+endef
+TARGET_DEVICES += telesquare_tlr-2005ksh
+
 define Device/tplink_archer-c20i
   $(Device/tplink-v2)
   SOC := mt7620a
